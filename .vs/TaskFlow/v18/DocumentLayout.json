@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.api\\dtos\\userdto\\userresponsedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\dtos\\userdto\\userresponsedto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AA38AF-1E52-46C1-AF30-70F7F4C7EEA9}|TaskFlow.DataAccess\\TaskFlow.DataAccess.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.dataaccess\\repositories\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18AA38AF-1E52-46C1-AF30-70F7F4C7EEA9}|TaskFlow.DataAccess\\TaskFlow.DataAccess.csproj|solutionrelative:taskflow.dataaccess\\repositories\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C4EDF09-7436-419F-908F-9260DEC5F233}|TaskFlow.Business\\TaskFlow.Business.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.business\\services\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C4EDF09-7436-419F-908F-9260DEC5F233}|TaskFlow.Business\\TaskFlow.Business.csproj|solutionrelative:taskflow.business\\services\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF6F95D2-B655-40AA-AFCB-F5242D5A4601}|TaskFlow.Api\\TaskFlow.Api.csproj|solutionrelative:taskflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18AA38AF-1E52-46C1-AF30-70F7F4C7EEA9}|TaskFlow.DataAccess\\TaskFlow.DataAccess.csproj|c:\\users\\mkiss\\onedrive\\bureau\\restfullapi-projects\\taskflow\\taskflow.dataaccess\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18AA38AF-1E52-46C1-AF30-70F7F4C7EEA9}|TaskFlow.DataAccess\\TaskFlow.DataAccess.csproj|solutionrelative:taskflow.dataaccess\\taskflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\Program.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T00:05:55.524Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\DTOs\\UserDTO\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\DTOs\\UserDTO\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\DTOs\\UserDTO\\UserResponseDTO.cs",
+              "RelativeToolTip": "TaskFlow.Api\\DTOs\\UserDTO\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T10:33:30.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TaskFlow.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwCkAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T10:09:35.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Business\\Services\\UserBLL.cs",
+              "RelativeDocumentMoniker": "TaskFlow.Business\\Services\\UserBLL.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.Business\\Services\\UserBLL.cs",
+              "RelativeToolTip": "TaskFlow.Business\\Services\\UserBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T09:48:27.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.DataAccess\\Repositories\\UserDAL.cs",
+              "RelativeDocumentMoniker": "TaskFlow.DataAccess\\Repositories\\UserDAL.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.DataAccess\\Repositories\\UserDAL.cs",
+              "RelativeToolTip": "TaskFlow.DataAccess\\Repositories\\UserDAL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:10:20.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskFlowDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.DataAccess\\TaskFlowDbContext.cs",
+              "RelativeDocumentMoniker": "TaskFlow.DataAccess\\TaskFlowDbContext.cs",
+              "ToolTip": "C:\\Users\\mkiss\\OneDrive\\Bureau\\RestFullApi-Projects\\TaskFlow\\TaskFlow.DataAccess\\TaskFlowDbContext.cs",
+              "RelativeToolTip": "TaskFlow.DataAccess\\TaskFlowDbContext.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAI4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T07:08:52.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
