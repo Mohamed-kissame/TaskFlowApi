@@ -12,7 +12,11 @@ namespace TaskFlow.Business.Extensions
         {
             services.AddDataAccess(connectionString);
 
-            services.AddScoped<UserBLL>();
+            services.AddScoped<UesrServices>();
+
+            services.AddScoped<ProjectServices>();
+
+            services.AddScoped<RoleServices>();
 
             return services;
         }

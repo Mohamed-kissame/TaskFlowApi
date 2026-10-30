@@ -10,11 +10,11 @@ namespace TaskFlow.Api.Controllers
     public class UserController : ControllerBase
     {
 
-        private readonly UserBLL _userBLL;
+        private readonly UesrServices _userServices;
 
-        public UserController(UserBLL userBLL)
+        public UserController(UesrServices userBLL)
         {
-            _userBLL = userBLL;
+            _userServices = userBLL;
         }
 
 
@@ -45,7 +45,7 @@ namespace TaskFlow.Api.Controllers
             try
             {
 
-                List<User> users = await _userBLL.GetAllUsersAsync(isActive);
+                List<User> users = await _userServices.GetAllUsersAsync(isActive);
 
                 var response = users.Select(MapToUserResponseDTO).ToList();
 
@@ -75,7 +75,7 @@ namespace TaskFlow.Api.Controllers
                     return BadRequest("Invalid User ID , User Id must be a positive integer");
                 }
 
-                User? user = await _userBLL.GetUserByIDAsync(userId);
+                User? user = await _userServices.GetUserByIDAsync(userId);
 
                 if(user == null)
                 {

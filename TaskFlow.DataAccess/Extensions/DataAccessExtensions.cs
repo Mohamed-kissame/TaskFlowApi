@@ -14,6 +14,9 @@ namespace TaskFlow.DataAccess.Extensions
                 options.UseSqlServer(connectionString));
 
             services.AddScoped<UserDAL>();
+            services.AddScoped<ProjectDAL>();
+
+            services.AddScoped<RoleDAL>();
 
             return services;
         }
