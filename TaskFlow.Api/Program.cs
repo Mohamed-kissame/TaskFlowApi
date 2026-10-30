@@ -25,8 +25,6 @@ builder.Services.AddBusinessLayer(connectionString);
 
 
 
-
-
 var app = builder.Build();
 
 
