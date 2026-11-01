@@ -20,6 +20,8 @@ namespace TaskFlow.DataAccess.Extensions
 
             services.AddScoped<CommentsDAL>();
 
+            services.AddScoped<ProjectTaskDAL>();
+
             return services;
         }
     }
