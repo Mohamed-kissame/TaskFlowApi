@@ -20,6 +20,8 @@ namespace TaskFlow.Business.Extensions
 
             services.AddScoped<CommentServices>();
 
+            services.AddScoped<ProjectTaskServices>();
+
             return services;
         }
     }
