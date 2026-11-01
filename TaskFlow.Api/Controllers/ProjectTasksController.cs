@@ -63,7 +63,7 @@ namespace TaskFlow.Api.Controllers
             catch (Exception)
             {
 
-                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred. Please try again later."); return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred. Please try again later.");
+                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred. Please try again later.");
             }
 
         }
