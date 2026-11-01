@@ -63,7 +63,7 @@ namespace TaskFlow.Api.Controllers
         }
 
 
-        [HttpGet("{commentId:int}")]
+        [HttpGet("{commentId:int")]
         [ProducesResponseType(typeof(CommentResponseDTO), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
