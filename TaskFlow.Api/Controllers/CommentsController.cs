@@ -3,7 +3,7 @@ using TaskFlow.Api.DTOs.CommentDTO;
 using TaskFlow.Models;
 using TaskFlow.Business.Services;
 using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
-using System.Collections;
+
 
 namespace TaskFlow.Api.Controllers
 {
@@ -55,8 +55,7 @@ namespace TaskFlow.Api.Controllers
             }
             catch (Exception)
             {
-
-                throw;
+                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred. Please try again later.");
             }
         
         
@@ -64,6 +63,42 @@ namespace TaskFlow.Api.Controllers
         }
 
 
+        [HttpGet("{commentId:int}")]
+        [ProducesResponseType(typeof(CommentResponseDTO), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+
+        public async Task<ActionResult<CommentResponseDTO>> GetCommentByIdAsync(int commentId)
+        {
+
+            try
+            {
+
+                if (commentId <= 0)
+                {
+
+                    return BadRequest("Invalid Input try to enter a valid positive integer graeter than ZERO");
+
+                }
+
+                Comment? comment = await _commentServices.GetCommentByIdAsync(commentId);
+
+                if(comment == null)
+                {
+                    return NotFound($"The Comment with Id {commentId} Not Found");
+                }
+
+
+                return Ok(MapToCommentResponseDTO(comment));
+
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError, "An unexpected error occurred. Please try again later.");
+            }
+        }
 
 
 
