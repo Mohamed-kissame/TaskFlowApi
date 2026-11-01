@@ -18,6 +18,8 @@ namespace TaskFlow.Business.Extensions
 
             services.AddScoped<RoleServices>();
 
+            services.AddScoped<CommentServices>();
+
             return services;
         }
     }
