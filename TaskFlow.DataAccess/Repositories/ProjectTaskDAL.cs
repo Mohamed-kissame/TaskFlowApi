@@ -25,7 +25,16 @@ namespace TaskFlow.DataAccess.Repositories
             return projectTasks;
         }
 
+        public async Task<ProjectTask?> GetProjectByIdAsync(int projectId)
+        {
 
+            ProjectTask? projectTask;
+
+            projectTask = await _context.ProjectTasks.FindAsync(projectId);
+
+
+            return projectTask;
+        }
 
 
     }
