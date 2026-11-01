@@ -26,5 +26,20 @@ namespace TaskFlow.Business.Services
             return projectTasks;
 
         }
+
+        public async Task<ProjectTask?> GetProjectByIdAsync(int projectId)
+        {
+
+            ProjectTask? projectTask;
+
+            projectTask = await _projectTaskDAL.GetProjectTaskByIdAsync(projectId);
+
+            return projectTask;
+
+
+        }
+
+
+
     }
 }
