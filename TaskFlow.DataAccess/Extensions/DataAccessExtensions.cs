@@ -18,6 +18,8 @@ namespace TaskFlow.DataAccess.Extensions
 
             services.AddScoped<RoleDAL>();
 
+            services.AddScoped<CommentsDAL>();
+
             return services;
         }
     }

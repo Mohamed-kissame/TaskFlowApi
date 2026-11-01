@@ -17,6 +17,8 @@ namespace TaskFlow.Api.DTOs.ProjectTaskDTO
 
         public int CreatedByUserID { get; set; }
 
+        public int? AssignedToUserID {  get; set; }
+
         public DateTime CreatedAt { get; set; }
 
         public DateTime? UpdatedAt { get; set; }
