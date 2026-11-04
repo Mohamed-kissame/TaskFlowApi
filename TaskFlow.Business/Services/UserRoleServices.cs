@@ -23,6 +23,17 @@ namespace TaskFlow.Business.Services
             return userRoles;
 
         }
+
+        public async Task<UserRole?> GetUserRoleByIdAsync(int UserID , int RoleID)
+        {
+
+            UserRole? userrole;
+
+            userrole = await _userroleDAL.GetUserRoleByIdAsync(UserID, RoleID);
+
+            return userrole;
+
+        }
     }
 
 }
