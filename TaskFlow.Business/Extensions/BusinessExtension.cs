@@ -22,6 +22,8 @@ namespace TaskFlow.Business.Extensions
 
             services.AddScoped<ProjectTaskServices>();
 
+            services.AddScoped<UserRoleServices>();
+
             return services;
         }
     }
