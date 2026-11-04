@@ -22,6 +22,8 @@ namespace TaskFlow.DataAccess.Extensions
 
             services.AddScoped<ProjectTaskDAL>();
 
+            services.AddScoped<UserRoleDAL>();
+
             return services;
         }
     }
