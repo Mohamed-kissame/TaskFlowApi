@@ -6,6 +6,11 @@ namespace TaskFlow.DataAccess.Repositories
     {
         private readonly TaskFlowDbContext _context;
 
+        public UserRoleDAL(TaskFlowDbContext context)
+        {
+         _context = context;   
+        }
+
 
     }
 
